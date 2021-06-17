@@ -1,7 +1,7 @@
 ﻿# Ball Tracking Robot
 I am working on a ball tracking robot that uses Arduino and Raspberry Pi to follow an object.
 
-|   **Engineer** | **School** | **Area of Interest** | **Grade** |
+| **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Michael | Amador Valley High School | Mechanical Engineering / Electrical Engineering / Programming | Incoming Junior
 
