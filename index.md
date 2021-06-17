@@ -1,9 +1,8 @@
-﻿# Project Name/Title Goes Here
-This will serve as a brief description of your project. Limit this to three sentences because it can become overly long at that point. This copy should draw the user in and make she/him want to read more.
-
+﻿# Ball Tracking Robot
+I am working on a ball tracking robot that uses Arduino and Raspberry Pi to follow an object.
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Firstname Lastname | Current Highschool | Electrical Engineering | Incoming Senior
+| Michael | Amador Valley High School | Mechanical Engineering / Electrical Engineering / Programming | Incoming Junior
 
 ![Headstone Image](https://bluestampengineering.com/wp-content/uploads/2016/05/improve.jpg)
   
