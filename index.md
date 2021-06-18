@@ -20,6 +20,4 @@ My final milestone is the increased reliability and accuracy of my robot. I amel
 
 My first milestone is that I assembled the chassis and learned the function of each electrical component, the Arduino and esp32, and many additional sensors. The chassis of this robot is where all electrical components with connect to, including the Raspberry Pi and all sensors. In addition to these, the chassis has four motors that are each connected to a wheel, allowing each wheel to be controlled independently. This is vital because there is no steering axle on the chassis so the only way to turn is by manipulating the left and right wheels as pairs, turning them opposite ways. The skills I learned with the Arduino and esp32 will be useful when having to connect it with the Raspberry Pi and with sensors. When I get my hands on the Raspberry Pi, I will be prepared to connect it with the chassis and electrical components. With code, my robot will become functional.
 
-raspberry pi vs arduino
-
 [![First Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612574117/video_to_markdown/images/youtube--CaCazFBhYKs-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=CaCazFBhYKs "First Milestone"){:target="_blank" rel="noopener"}
