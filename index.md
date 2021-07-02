@@ -16,7 +16,6 @@ My final milestone is the increased reliability and accuracy of my robot. I amel
 My final milestone is the increased reliability and accuracy of my robot. I ameliorated the sagging and fixed the reliability of the finger. As discussed in my second milestone, the arm sags because of weight. I put in a block of wood at the base to hold up the upper arm; this has reverberating positive effects throughout the arm. I also realized that the forearm was getting disconnected from the elbow servo’s horn because of the weight stress on the joint. Now, I make sure to constantly tighten the screws at that joint.
 
 [![Third Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612574014/video_to_markdown/images/youtube--y3VAmNlER5Y-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=y3VAmNlER5Y&feature=emb_logo "Second Milestone"){:target="_blank" rel="noopener"}
-
 # First Milestone
 
 My first milestone includes the assembling of the chassis and attaching Mecanum wheels, but is otherwise mostly composed of software additions. The Mecanum wheels allow the robot to move in any direction without having to turn, and in the case that it does turn, there will be reduced friction due to the rollers on the wheels.
