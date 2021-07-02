@@ -25,4 +25,4 @@ Then I studied electrical components and became familiar with Arduino’s, ESP32
 
 The SSH allows me to easily access my Raspberry Pi’s terminal from my laptop, and without a monitor for the Raspberry Pi. The VNC enables me to have full control over my Raspberry Pi’s screen from my laptop, meaning I can use my laptop and Raspberry Pi from one computer. Finally, I set up a Github repository in order to transfer files and code from Visual Studio Code, my main code editor, on my laptop to the one on my Raspberry Pi. I also learned all the necessary Git commands to allow me to do this.
 
-[![First Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1625243705/video_to_markdown/images/youtube--jhOh5i_Zu2o-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/jhOh5i_Zu2o "First Milestone"{:target="_blank" rel="noopener"})
+[![First Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1625243705/video_to_markdown/images/youtube--jhOh5i_Zu2o-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/jhOh5i_Zu2o "First Milestone"){:target="_blank" rel="noopener"}
