@@ -1,9 +1,9 @@
-﻿# Project Name/Title Goes Here
-This will serve as a brief description of your project. Limit this to three sentences because it can become overly long at that point. This copy should draw the user in and make she/him want to read more.
+﻿# Smart Mirror
+The Smart Mirror is a mirror with an interface, powered by a Raspberry Pi and a small monitor. The project is very software heavy, using React.js to create an app that will become the display for the mirror.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Alicia Fu | Lynbrook High School | Software Engineering | Rising Senior
+| Alicia F | Lynbrook High School | Software Engineering | Rising Senior
 
 ![Headstone Image](https://bluestampengineering.com/wp-content/uploads/2016/05/improve.jpg)
   
