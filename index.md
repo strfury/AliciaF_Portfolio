@@ -36,7 +36,7 @@ let BirthdayList = [
 ```
 - The code to create a flexible window with the icons, this can be used to wrap any component. The category variable can take different text for the input in order to display a different word for the top of the window.
 ```javascript
-  const Window = ({children, category})=>{
+const Window = ({children, category})=>{
     return(
     <div>
         <div style = {{...styleSheet.top,...styleSheet.global}}>
