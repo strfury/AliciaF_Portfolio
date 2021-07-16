@@ -34,36 +34,10 @@ const interval = setInterval( ()=>{
         setCurrentSeconds(editTime((new Date()).getSeconds()));
     },1000); 
 ````
-- The code to create a flexible window with the icons, this can be used to wrap any component.
+- The code to create a flexible window with the icons, this can be used to wrap any component. The category variable can take different text for the input in order to display a different word for the top of the window.
 ````javascript
 
-const styleSheet = {
-    box : {
-        width: "100%",
-        border: "1px solid black",
 
-    },
-    top: {
-        display: "flex",
-        width: "100%",
-        height: "25px",
-        border: "1px solid black",
-        borderBottomStyle: "hidden",
-        justifyContent: "space-between",
-        paddingTop: "5px",
-    },
-    global: {
-        paddingLeft: "10px",
-        paddingRight: "10px",
-    },
-    iconBox : {
-        display: "flex",
-    },
-    iconPadding : {
-        paddingLeft: "4px",
-        paddingRight: "4px"
-    }
-}
 const Window = ({children, category})=>{
     return(
     <div>
@@ -78,7 +52,6 @@ const Window = ({children, category})=>{
         <div style = {{...styleSheet.box,...styleSheet.global}}>{children}</div>
     </div>);
 }
-export default Window;
 ````
 
 
