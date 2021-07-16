@@ -14,7 +14,8 @@ My final milestone is the increased reliability and accuracy of my robot. I amel
 
 # Second Milestone
 My second milestone was finishing the additional software of my Smart Mirror. The first part is a date and time section, formatted to my liking. There is also a birthday section, which displays the days until someone's birthday. The birthdays are hard coded into the program with the dates, and they display different messages the day before and of someone's birthday. There is also a weather section which displays the degrees in my city in Fahrenheit, and the current status of the weather from OpenWeather API. The image of the folder also changes depending on the status.
-The birthday list, this can be edited to add/remove/change birthdays.
+
+- The birthday list, this can be edited to add/remove/change birthdays.
 ```javascript
 let BirthdayList = [
     {Name: "helena", Date: new Date("july 14," + new Date().getFullYear())},
