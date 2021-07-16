@@ -1,4 +1,3 @@
-<img width="257" alt="Screen Shot 2021-07-16 at 9 31 45 AM" src="https://user-images.githubusercontent.com/86542085/125979880-8efcfc5a-61e0-43ac-8130-7b10bb33b2ef.png">
 ﻿# Smart Mirror
 The Smart Mirror is a mirror with an interface, powered by a Raspberry Pi and a small monitor. The project is very software heavy, using React.js to create an app that will become the display for the mirror.
 
@@ -37,6 +36,7 @@ const interval = setInterval( ()=>{
 ````
 - The code to create a flexible window with the icons, this can be used to wrap any component.
 ````javascript
+
 const styleSheet = {
     box : {
         width: "100%",
@@ -64,7 +64,6 @@ const styleSheet = {
         paddingRight: "4px"
     }
 }
-
 const Window = ({children, category})=>{
     return(
     <div>
