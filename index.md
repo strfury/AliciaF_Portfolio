@@ -27,6 +27,60 @@ let BirthdayList = [
 ````
 - The finished daily component on my website.
 <img width="257" alt="Screen Shot 2021-07-16 at 9 31 45 AM" src="https://user-images.githubusercontent.com/86542085/125979904-e7f8ae42-dfdf-4242-a9bf-6630d65924ff.png">
+- The Interval component that updates the time every second.
+````javascript
+const interval = setInterval( ()=>{
+        setCurrentHour(editTime((new Date()).getHours()));
+        setCurrentMinutes(editTime((new Date()).getMinutes()));
+        setCurrentSeconds(editTime((new Date()).getSeconds()));
+    },1000); 
+````
+- The code to create a flexible window with the icons, this can be used to wrap any component.
+````javascript
+const styleSheet = {
+    box : {
+        width: "100%",
+        border: "1px solid black",
+
+    },
+    top: {
+        display: "flex",
+        width: "100%",
+        height: "25px",
+        border: "1px solid black",
+        borderBottomStyle: "hidden",
+        justifyContent: "space-between",
+        paddingTop: "5px",
+    },
+    global: {
+        paddingLeft: "10px",
+        paddingRight: "10px",
+    },
+    iconBox : {
+        display: "flex",
+    },
+    iconPadding : {
+        paddingLeft: "4px",
+        paddingRight: "4px"
+    }
+}
+
+const Window = ({children, category})=>{
+    return(
+    <div>
+        <div style = {{...styleSheet.top,...styleSheet.global}}>
+            <div>{category}</div>
+            <div style = {styleSheet.iconBox}>
+                <div>-</div>
+                <div style = {styleSheet.iconPadding}>o</div>
+                <div>x</div>
+            </div>
+        </div>
+        <div style = {{...styleSheet.box,...styleSheet.global}}>{children}</div>
+    </div>);
+}
+export default Window;
+````
 
 
 [![Second Milestone](https://res.cloudinary.com/dum3otqhy/image/upload/v1626452744/second_milestone_kd4ajq.png)](https://www.youtube.com/watch?v=y3VAmNlER5Y&feature=emb_logo "Second Milestone")
