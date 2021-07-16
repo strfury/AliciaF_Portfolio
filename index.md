@@ -28,15 +28,15 @@ let BirthdayList = [
 <img width="257" alt="Screen Shot 2021-07-16 at 9 31 45 AM" src="https://user-images.githubusercontent.com/86542085/125979904-e7f8ae42-dfdf-4242-a9bf-6630d65924ff.png">
 - The Interval component that updates the time every second.
 ```javascript
-const interval = setInterval( ()=>{
+  const interval = setInterval( ()=>{
         setCurrentHour(editTime((new Date()).getHours()));
         setCurrentMinutes(editTime((new Date()).getMinutes()));
         setCurrentSeconds(editTime((new Date()).getSeconds()));
-    },1000); 
+  },1000); 
 ```
 - The code to create a flexible window with the icons, this can be used to wrap any component. The category variable can take different text for the input in order to display a different word for the top of the window.
 ```javascript
-const Window = ({children, category})=>{
+  const Window = ({children, category})=>{
     return(
     <div>
         <div style = {{...styleSheet.top,...styleSheet.global}}>
