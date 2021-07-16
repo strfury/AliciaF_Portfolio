@@ -1,3 +1,4 @@
+<img width="257" alt="Screen Shot 2021-07-16 at 9 31 45 AM" src="https://user-images.githubusercontent.com/86542085/125979880-8efcfc5a-61e0-43ac-8130-7b10bb33b2ef.png">
 ﻿# Smart Mirror
 The Smart Mirror is a mirror with an interface, powered by a Raspberry Pi and a small monitor. The project is very software heavy, using React.js to create an app that will become the display for the mirror.
 
@@ -24,6 +25,8 @@ let BirthdayList = [
     {Name: "lauren", Date: new Date("november 9," + new Date().getFullYear())}
 ]
 ````
+- The finished daily component on my website.
+<img width="257" alt="Screen Shot 2021-07-16 at 9 31 45 AM" src="https://user-images.githubusercontent.com/86542085/125979904-e7f8ae42-dfdf-4242-a9bf-6630d65924ff.png">
 
 
 [![Second Milestone](https://res.cloudinary.com/dum3otqhy/image/upload/v1626452744/second_milestone_kd4ajq.png)](https://www.youtube.com/watch?v=y3VAmNlER5Y&feature=emb_logo "Second Milestone")
