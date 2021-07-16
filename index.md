@@ -23,7 +23,7 @@ let BirthdayList = [
     {Name: "snow", Date: new Date("september 17," + new Date().getFullYear())},
     {Name: "lauren", Date: new Date("november 9," + new Date().getFullYear())}
 ]
-````
+```
 - The finished daily component on my website.
 <img width="257" alt="Screen Shot 2021-07-16 at 9 31 45 AM" src="https://user-images.githubusercontent.com/86542085/125979904-e7f8ae42-dfdf-4242-a9bf-6630d65924ff.png">
 - The Interval component that updates the time every second.
