@@ -42,7 +42,7 @@ let BirthdayList = [
 const Window = ({children, category})=>{
     return(
     <div>
-        <div style = {{...styleSheet.top,...styleSheet.global}}>
+        <div style = {{ ...styleSheet.top,...styleSheet.global }}>
             <div>{category}</div>
             <div style = {styleSheet.iconBox}>
                 <div>-</div>
@@ -50,7 +50,7 @@ const Window = ({children, category})=>{
                 <div>x</div>
             </div>
         </div>
-        <div style = {{...styleSheet.box,...styleSheet.global}}>{children}</div>
+        <div style = {{ ...styleSheet.box,...styleSheet.global }}>{children}</div>
     </div>);
 }
 ```
