@@ -39,6 +39,7 @@ let BirthdayList = [
 
 - The code to create a flexible window with the icons, this can be used to wrap any component. The category variable can take different text for the input in order to display a different word for the top of the window.
 ```javascript
+{% raw %}
 const Window = ({children, category})=>{
     return(
     <div>
@@ -53,6 +54,7 @@ const Window = ({children, category})=>{
         <div style = {{ ...styleSheet.box,...styleSheet.global }}>{children}</div>
     </div>);
 }
+{% endraw %}
 ```
 - Different versions of the folder icon depending on the current status of the weather.
 <img width="117" alt="Screen Shot 2021-07-16 at 9 09 37 AM" src="https://user-images.githubusercontent.com/86542085/125988071-08e3e060-646f-4882-aba3-2953df822ab3.png">
