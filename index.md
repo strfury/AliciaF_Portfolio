@@ -46,9 +46,8 @@ let BirthdayList = [
 - Different versions of the folder icon depending on the current status of the weather.
 <img width="117" alt="Screen Shot 2021-07-16 at 9 09 37 AM" src="https://user-images.githubusercontent.com/86542085/125988071-08e3e060-646f-4882-aba3-2953df822ab3.png">
 <img width="115" alt="Screen Shot 2021-07-16 at 10 43 18 AM" src="https://user-images.githubusercontent.com/86542085/125988074-ec37ec63-a229-4ea0-8bc7-e8bd90e4730c.png">
-![50d](https://user-images.githubusercontent.com/86542085/126815808-9b61ccb1-02ba-439d-b8f9-0e80b948e2f0.png)
-![11d](https://user-images.githubusercontent.com/86542085/126815815-8a3c5978-4ff2-4afd-b150-9c85123e3d35.png)
-
+<img width="115" alt="icon 1" src="https://user-images.githubusercontent.com/86542085/126815808-9b61ccb1-02ba-439d-b8f9-0e80b948e2f0.png">
+<img width="115" alt="icon2" src="https://user-images.githubusercontent.com/86542085/126815815-8a3c5978-4ff2-4afd-b150-9c85123e3d35.png.png">
 
 
 
