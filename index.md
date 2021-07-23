@@ -7,11 +7,14 @@ The Smart Mirror is a mirror with an interface, powered by a Raspberry Pi and a 
 
 <img width="1253" alt="demo" src="https://user-images.githubusercontent.com/86542085/126815098-c9b2054d-e787-4d97-b1ef-e0bcb7ee13c6.png">
 
+# Reflections
+I learned through this project that I am much more interested in software than hardware. The precision required to assemble even simple hardware proved too stressful for me, and I would rather stick to purely coding. In this coming year, when I apply to colleges, I will likely only choose majors that pertain to software engineering. I also learned that instruction can go a long way, I had to learn a lot from scratch due to my inexperience but coming to office hours and getting help in class made it much easier to create my project. I also liked the design element of my project and formatting things to work correctly, I definitely have an interest in UI/UX design and would love to pursue it in the future.
+[![Reflections](https://res.cloudinary.com/dum3otqhy/image/upload/v1627060124/demothumbnail_w9dz7z.png)](https://www.youtube.com/watch?v=mSfWsK9F47Y&ab_channel=BlueStampEng "Reflections")
   
 # Final Milestone
 My final milestone was setting up the hardware portion of the project. I glued the monitor to the bottom left of the acrylic screen using a hot glue gun, lining it up first and carefully lifting corners in order to apply a small amount of glue. After that all that was left to do was install my website software onto my Raspberry Pi, which I first uploaded to Github to make it easier to download. Once I pulled it onto my Pi, I used npm i and npm run build in order to install all the packages and get it to run. Some issues were the Pi constantly crashing or not booting properly, but with a lot of patience and unplugging the Pi everything worked out well at the end.
 
-[![Final Milestone](https://res.cloudinary.com/dum3otqhy/image/upload/v1626452744/final_milestone_zw6wjp.png)](https://www.youtube.com/watch?v=F7M7imOVGug&feature=emb_logo "Final Milestone")
+[![Final Milestone](https://res.cloudinary.com/dum3otqhy/image/upload/v1626452744/final_milestone_zw6wjp.png)](https://www.youtube.com/watch?v=7X3h_CurG2I&ab_channel=BlueStampEng "Final Milestone")
 
 # Second Milestone
 My second milestone was finishing the additional software of my Smart Mirror. The first part is a date and time section, formatted to my liking. There is also a birthday section, which displays the days until someone's birthday. The birthdays are hard coded into the program with the dates, and they display different messages the day before and of someone's birthday. There is also a weather section which displays the degrees in my city in Fahrenheit, and the current status of the weather from OpenWeather API. The image of the folder also changes depending on the status.
@@ -47,11 +50,11 @@ let BirthdayList = [
 <img width="117" alt="Screen Shot 2021-07-16 at 9 09 37 AM" src="https://user-images.githubusercontent.com/86542085/125988071-08e3e060-646f-4882-aba3-2953df822ab3.png">
 <img width="115" alt="Screen Shot 2021-07-16 at 10 43 18 AM" src="https://user-images.githubusercontent.com/86542085/125988074-ec37ec63-a229-4ea0-8bc7-e8bd90e4730c.png">
 <img width="115" alt="icon 1" src="https://user-images.githubusercontent.com/86542085/126815808-9b61ccb1-02ba-439d-b8f9-0e80b948e2f0.png">
-<img width="115" alt="icon2" src="https://user-images.githubusercontent.com/86542085/126815815-8a3c5978-4ff2-4afd-b150-9c85123e3d35.png.png">
+<img width="115" alt="icon2" src="https://user-images.githubusercontent.com/86542085/126815815-8a3c5978-4ff2-4afd-b150-9c85123e3d35.png">
 
 
 
-[![Second Milestone](https://res.cloudinary.com/dum3otqhy/image/upload/v1626452744/second_milestone_kd4ajq.png)](https://www.youtube.com/watch?v=y3VAmNlER5Y&feature=emb_logo "Second Milestone")
+[![Second Milestone](https://res.cloudinary.com/dum3otqhy/image/upload/v1626452744/second_milestone_kd4ajq.png)](https://www.youtube.com/watch?v=sRSUaD4HnZ0 "Second Milestone")
 # First Milestone
   
 
