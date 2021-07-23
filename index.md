@@ -5,7 +5,8 @@ The Smart Mirror is a mirror with an interface, powered by a Raspberry Pi and a 
 |:--:|:--:|:--:|:--:|
 | Alicia F | Lynbrook High School | Software Engineering | Rising Senior
 
-![Headstone Image](https://bluestampengineering.com/wp-content/uploads/2016/05/improve.jpg)
+![Headstone Image](<img width="1253" alt="demo" src="https://user-images.githubusercontent.com/86542085/126815098-c9b2054d-e787-4d97-b1ef-e0bcb7ee13c6.png">
+)
   
 # Final Milestone
 My final milestone was setting up the hardware portion of the project. I glued the monitor to the bottom left of the acrylic screen using a hot glue gun, lining it up first and carefully lifting corners in order to apply a small amount of glue. After that all that was left to do was install my website software onto my Raspberry Pi, which I first uploaded to Github to make it easier to download. Once I pulled it onto my Pi, I used npm i and npm run build in order to install all the packages and get it to run. Some issues were the Pi constantly crashing or not booting properly, but with a lot of patience and unplugging the Pi everything worked out well at the end.
@@ -38,22 +39,9 @@ let BirthdayList = [
 ```
 
 - The code to create a flexible window with the icons, this can be used to wrap any component. The category variable can take different text for the input in order to display a different word for the top of the window.
-```javascript
-const Window = ({children, category})=>{
-    return(
-    <div>
-        <div style = {{ ...styleSheet.top,...styleSheet.global }}>
-            <div>{category}</div>
-            <div style = {styleSheet.iconBox}>
-                <div>-</div>
-                <div style = {styleSheet.iconPadding}>o</div>
-                <div>x</div>
-            </div>
-        </div>
-        <div style = {{ ...styleSheet.box,...styleSheet.global }}>{children}</div>
-    </div>);
-}
-```
+![carbon (1)](https://user-images.githubusercontent.com/86542085/126815251-9dceb27b-ef37-4320-b0c0-4b9b0e076649.png)
+
+
 
 - Different versions of the folder icon depending on the current status of the weather.
 <img width="117" alt="Screen Shot 2021-07-16 at 9 09 37 AM" src="https://user-images.githubusercontent.com/86542085/125988071-08e3e060-646f-4882-aba3-2953df822ab3.png">
